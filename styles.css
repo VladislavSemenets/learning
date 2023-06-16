@@ -1,0 +1,51 @@
+.image {
+    display: block;
+    margin: auto;
+}
+.text-center {
+
+    }
+.title {
+font-family: 'Open Sans';
+font-weight: 800;
+font-size: 95px;
+line-height: 129px;
+margin-top: 42px;
+margin-bottom: 29px;
+text-align: center;
+
+color: #6B68EC;
+       }
+.description {
+    font-family: 'Open Sans';
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+min-width: 272px;
+margin-bottom: 69px;
+text-align: center;
+
+color: #484855;
+}
+.btn {
+    font-family: 'Open Sans';
+font-weight: 600;
+font-size: 18px;
+line-height: 1.4;
+
+color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+border-radius: 30px;
+min-width: 363px;
+height: 99px;
+transform: matrix(1, 0, 0, 1, 0, 0);
+
+background: #1C1C25;
+}
+.btn:hover, 
+.btn:focus {
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
